@@ -1,5 +1,8 @@
 $("ul").on "click", "a", (e)->
-    e.preventDefault()
-    target = $(this).attr('data-hook')
-    $('img').addClass('is-hidden')
-    $("##{target}").removeClass('is-hidden')
+  $this = $(this)
+  e.preventDefault()
+  $('a').removeClass('ama-is-active')
+  $this.addClass('ama-is-active')
+  target = $this.attr('data-hook')
+  $('img').addClass('is-hidden')
+  $("##{target}").removeClass('is-hidden')

@@ -2,7 +2,7 @@ div class:"row", ->
   div class:"large-2 columns", ->
     ul class:"menu vertical", ->
       li ->
-        a "data-hook":"ops", href:"#", "Opportunities"
+        a class:"ama-is-active", "data-hook":"ops", href:"#", "Opportunities"
       li ->
         a "data-hook":"opsNew", href:"#", "Opportunities: New"
       li ->
