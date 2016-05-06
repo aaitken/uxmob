@@ -1,0 +1,5 @@
+--- cson
+
+layout: 'default'
+
+---
