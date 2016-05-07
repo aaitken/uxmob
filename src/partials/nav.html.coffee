@@ -10,7 +10,7 @@ makeParentWithChildren = (parent, children)->
           a href:"##{deduceId(parent+child[0])}", child[0]
 
 
-ul class:"menu vertical", ->
+ul class:"menu vertical", "data-accordion-menu":"data-accordion-menu", "data-multi-open":"false", "data-slide-speed":"0", ->
   for group, views of @document.nav
     li ->
       a href:"#", group

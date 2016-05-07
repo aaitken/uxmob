@@ -15,7 +15,8 @@ nav: {
         ['Overview', 'opportunity-overview(png)']
         ['With Info on Customer', 'opportunity-overview(png)-info-customer']
         ['With info on Building', 'opportunity-overview(png)-info-building']
-        ['With Help on Units', 'opportunity-overview(png)-help-units']
+        ['With Help on Units', 'opportunity-overview(png)-help-units']]
+      'Record - Analysis': [
         ['Analysis', 'opportunity-analysis']]}}
 
 ---

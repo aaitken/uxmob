@@ -1,1 +1,2 @@
 impress().init()
+$(document).foundation()
