@@ -1,5 +1,7 @@
-div id:"opportunities", class:"step ama-slide", ->
-  img src:"#{@document.roots['opportunities']}opportunities(png).png" 
+mocks = [
+  ['opportunities(png)', 'opportunities'] 
+  ['opportunities-new(png)', 'opportunities-new']]
 
-div id:"opportunities-new", class:"step ama-slide", ->
-  img src:"#{@document.roots['opportunities']}opportunities-new(png).png" 
+for mock in mocks
+  div id:mock[1], class:"step ama-slide", ->
+    img src:"#{@document.roots['opportunities']}#{mock[0]}.png" 

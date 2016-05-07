@@ -1,3 +1,15 @@
+nav = {
+  'Opportunities': 'opportunities'
+  'Opportunities - New': 'opportunities-new'}
+
+ul class:"menu vertical", ->
+  for name, link of nav
+    li ->
+      a href:"#/#{link}", "#{name}"
+
+
+
+###
 ul class:"menu vertical", ->
   li ->
     a class:"ama-is-active", "data-hook":"ops", href:"#", "Opportunities"
@@ -19,3 +31,4 @@ ul class:"menu vertical", ->
     a "data-hook":"opHelpUnits", href:"#", "Opportunity - Overview (Units Help State)"
   li ->
     a "data-hook":"opAnalysis", href:"#", "Opportunity - Analysis"
+###
