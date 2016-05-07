@@ -1,7 +1,5 @@
-mocks = [
-  ['opportunities(png)', 'opportunities'] 
-  ['opportunities-new(png)', 'opportunities-new']]
-
-for mock in mocks
-  div id:mock[1], class:"step ama-slide", ->
-    img src:"#{@document.roots['opportunities']}#{mock[0]}.png" 
+for group, views of @document.nav
+  for view, states of views
+    for state in states
+      div id:state[0].replace(/ /g,'').toLowerCase(), class:"step ama-slide", ->
+        img src:"#{@document.roots['opportunities']}#{state[1]}.png" 
