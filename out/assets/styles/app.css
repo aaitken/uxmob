@@ -1,3 +1,7 @@
+body {
+  overflow: auto !important;
+}
+
 .row {
   max-width: 100%;
 }
@@ -7,12 +11,16 @@
 }
 
 .impress-enabled .step {
-  opacity: 0;
+  display: none;
 }
 .impress-enabled .step.active {
-  opacity: 1;
+  display: block;
+}
+.impress-enabled .ama-slide {
+  width: 1040px;
+  transform: translate(-50%, 0%) !important;
 }
 
-.ama-slide {
-  width: 1040px;
+.ama-impress-container {
+  position: relative;
 }

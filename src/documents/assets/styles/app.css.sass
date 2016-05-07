@@ -1,3 +1,6 @@
+body
+  overflow: auto !important
+
 .row
   max-width: 100%
 
@@ -8,11 +11,16 @@
 
 .impress-enabled
   .step
-    opacity: 0
+    display: none
 
     &.active
-      opacity: 1
+      display: block
 
 
-.ama-slide
-  width: 1040px
+  .ama-slide
+    width: 1040px
+    transform: translate(-50%, 0%) !important
+
+
+.ama-impress-container
+  position: relative
