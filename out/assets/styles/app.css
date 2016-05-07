@@ -5,3 +5,14 @@
 .ama-is-active {
   background: rgba(0, 0, 0, 0.05);
 }
+
+.impress-enabled .step {
+  opacity: 0;
+}
+.impress-enabled .step.active {
+  opacity: 1;
+}
+
+.ama-slide {
+  width: 1040px;
+}
