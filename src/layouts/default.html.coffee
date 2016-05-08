@@ -24,9 +24,9 @@ html ->
       link rel:"stylesheet", href:url, media:"all"
   body ->
     div class:"row", ->
-      div class:"large-3 columns", ->
+      div class:"large-2 columns", ->
         @partial('nav.html.coffee')
-      div class:"large-9 columns ama-impress-container", ->
+      div class:"large-10 columns ama-impress-container", ->
         div id:"impress", ->
           @partial('opportunities.html.coffee')
     #this picks up incrementally-named document scripts as well
