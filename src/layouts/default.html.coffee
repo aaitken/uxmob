@@ -28,7 +28,6 @@ html ->
         @partial('nav.html.coffee')
       div class:"large-10 columns ama-impress-container", ->
         div id:"impress", ->
-          @partial('opportunities.html.coffee')
     #this picks up incrementally-named document scripts as well
     for url in @assets('scripts')
       script src:url, defer:"defer"
