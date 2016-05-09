@@ -12,6 +12,13 @@ docpadConfig = {
   environments:
     production:
       ignoreCustomPatterns: /\.sass/
+
+  templateData:
+    deduceId: ->
+      console.log('testtesttesttesttest')
+
+
+  
 }
 
 # Export the DocPad Configuration

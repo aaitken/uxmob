@@ -6,17 +6,17 @@ roots: {
 nav: {
   'Opportunities': {
       'Index': [
-        ['Index', 'opportunities(png)']
+        ['Index', 'opportunities']
         {'New': [
-          ['New', 'opportunities-new(png)']
-          ['Help', 'opportunities-new(png)-help-type']
-          ['Error', 'opportunities-new(png)-error']
+          ['New', 'opportunities-new']
+          ['Help', 'opportunities-new-help-type']
+          ['Error', 'opportunities-new-error']
           ['New', 'opportunities-new-new']]}]
       'Record - Overview': [
-        ['Overview', 'opportunity-overview(png)']
-        ['Customer Info', 'opportunity-overview(png)-info-customer']
-        ['Building Info', 'opportunity-overview(png)-info-building']
-        ['Units Help', 'opportunity-overview(png)-help-units']]
+        ['Overview', 'opportunity-overview']
+        ['Customer Info', 'opportunity-overview-info-customer']
+        ['Building Info', 'opportunity-overview-info-building']
+        ['Units Help', 'opportunity-overview-help-units']]
       'Record - Analysis': [
         ['Analysis', 'opportunity-analysis']]}}
 

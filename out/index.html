@@ -9,46 +9,46 @@
   </head>
   <body>
     <div class="row">
-      <div class="large-2 columns">
+      <div class="large-3 columns" style="position: fixed">
         <ul class="menu vertical" data-accordion-menu="data-accordion-menu" data-multi-open="false" data-slide-speed="0">
   <li>
-    <a href="#">Opportunities</a>
-    <ul class="menu vertical nested">
+    <a>Opportunities</a>
+    <ul class="menu vertical nested" style="display: block">
       <li>
-        <a href="#">Index</a>
+        <a href="#opportunities">Index</a>
         <ul class="menu vertical nested">
           <li>
-            <a href="#">New</a>
+            <a href="#opportunities-new">New</a>
             <ul class="menu vertical nested">
               <li>
-                <a href="#">Help</a>
+                <a href="#opportunities-new-help-type">Help</a>
               </li>
               <li>
-                <a href="#">Error</a>
+                <a href="#opportunities-new-error">Error</a>
               </li>
               <li>
-                <a href="#">New</a>
+                <a href="#opportunities-new-new">New</a>
               </li>
             </ul>
           </li>
         </ul>
       </li>
       <li>
-        <a href="#">Record - Overview</a>
+        <a href="#opportunity-overview">Record - Overview</a>
         <ul class="menu vertical nested">
           <li>
-            <a href="#">Customer Info</a>
+            <a href="#opportunity-overview-info-customer">Customer Info</a>
           </li>
           <li>
-            <a href="#">Building Info</a>
+            <a href="#opportunity-overview-info-building">Building Info</a>
           </li>
           <li>
-            <a href="#">Units Help</a>
+            <a href="#opportunity-overview-help-units">Units Help</a>
           </li>
         </ul>
       </li>
       <li>
-        <a href="#">Record - Analysis</a>
+        <a href="#opportunity-analysis">Record - Analysis</a>
         <ul class="menu vertical nested">
         </ul>
       </li>
@@ -57,14 +57,45 @@
 </ul>
 
       </div>
-      <div class="large-10 columns ama-impress-container">
+      <div class="large-9 columns ama-impress-container">
         <div id="impress">
+          <div id="opportunities" class="step ama-slide">
+  <img src="http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunities.png" />
+</div>
+<div id="opportunities-new" class="step ama-slide">
+  <img src="http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunities-new.png" />
+</div>
+<div id="opportunities-new-help-type" class="step ama-slide">
+  <img src="http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunities-new-help-type.png" />
+</div>
+<div id="opportunities-new-error" class="step ama-slide">
+  <img src="http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunities-new-error.png" />
+</div>
+<div id="opportunities-new-new" class="step ama-slide">
+  <img src="http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunities-new-new.png" />
+</div>
+<div id="opportunity-overview" class="step ama-slide">
+  <img src="http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunity-overview.png" />
+</div>
+<div id="opportunity-overview-info-customer" class="step ama-slide">
+  <img src="http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunity-overview-info-customer.png" />
+</div>
+<div id="opportunity-overview-info-building" class="step ama-slide">
+  <img src="http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunity-overview-info-building.png" />
+</div>
+<div id="opportunity-overview-help-units" class="step ama-slide">
+  <img src="http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunity-overview-help-units.png" />
+</div>
+<div id="opportunity-analysis" class="step ama-slide">
+  <img src="http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunity-analysis.png" />
+</div>
+
         </div>
       </div>
     </div>
     <script src="/assets/scripts/jquery.js" defer="defer"></script>
     <script src="/assets/scripts/what-input.js" defer="defer"></script>
-    <script src="/assets/scripts/foundation.min.js" defer="defer"></script>
+    <script src="/assets/scripts/foundation.js" defer="defer"></script>
     <script src="/assets/scripts/impress.js" defer="defer"></script>
     <script src="/assets/scripts/app.js" defer="defer"></script>
   </body>
