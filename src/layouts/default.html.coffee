@@ -7,7 +7,7 @@ styles: [
 scripts: [
   '/assets/scripts/jquery.js'
   '/assets/scripts/what-input.js'
-  '/assets/scripts/foundation.min.js'
+  '/assets/scripts/foundation.js'
   '/assets/scripts/impress.js'
   '/assets/scripts/app.js']
 
