@@ -22,16 +22,16 @@ div class:"row", ->
       li ->
         a "data-hook":"opAnalysis", href:"#", "Opportunity - Analysis"
   div class:"large-10 columns", ->
-    img class:"", id:"ops", src:"http://d7f3jtm2h2ycg.cloudfront.net/opportunities/Opportunities%20%28png%29.png" 
-    img class:"is-hidden", id:"opsNew", src:"http://prologis.s3-us-west-2.amazonaws.com/opportunities/Opportunities_%20New%20%28png%29.png"
-    img class:"is-hidden", id:"opsNewHelp", src:"http://prologis.s3-us-west-2.amazonaws.com/opportunities/Opportunities_%20New%20%28png%29%20%28Type%20Help%20State%29.png"
-    img class:"is-hidden", id:"opsNewError", src:"http://prologis.s3-us-west-2.amazonaws.com/opportunities/Opportunities_%20New%20%28png%29%20%28Error%20State%29.png"
-    img class:"is-hidden", id:"opsNewNew", src:"http://prologis.s3-us-west-2.amazonaws.com/opportunities/Opportunities_%20New_%20New%20Customer%20Company.png"
-    img class:"is-hidden", id:"op", src:"http://prologis.s3-us-west-2.amazonaws.com/opportunities/Opportunity%20-%20Overview%20%28png%29.png"
-    img class:"is-hidden", id:"opInfoAcct", src:"http://prologis.s3-us-west-2.amazonaws.com/opportunities/Opportunity%20-%20Overview%20%28png%29%20%28Customer%20Account%20Info%20State%29.png"
-    img class:"is-hidden", id:"opInfoBuilding", src:"http://prologis.s3-us-west-2.amazonaws.com/opportunities/Opportunity%20-%20Overview%20%28png%29%20%28Building%20Info%20State%29.png"
-    img class:"is-hidden", id:"opHelpUnits", src:"http://prologis.s3-us-west-2.amazonaws.com/opportunities/Opportunity%20-%20Overview%20%28png%29%20%28Units%20Help%20State%29.png"
-    img class:"is-hidden", id:"opAnalysis", src:"http://prologis.s3-us-west-2.amazonaws.com/opportunities/Opportunity%20-%20Analysis.png"
+    img class:"", id:"ops", src:"http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunities.png" 
+    img class:"is-hidden", id:"opsNew", src:"http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunities-new.png"
+    img class:"is-hidden", id:"opsNewHelp", src:"http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunities-new-help-type.png"
+    img class:"is-hidden", id:"opsNewError", src:"http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunities-new-error.png"
+    img class:"is-hidden", id:"opsNewNew", src:"http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunities-new-new.png"
+    img class:"is-hidden", id:"op", src:"http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunity-overview.png"
+    img class:"is-hidden", id:"opInfoAcct", src:"http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunity-overview-info-customer.png"
+    img class:"is-hidden", id:"opInfoBuilding", src:"http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunity-overview-info-building.png"
+    img class:"is-hidden", id:"opHelpUnits", src:"http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunity-overview-help-units.png"
+    img class:"is-hidden", id:"opAnalysis", src:"http://d7f3jtm2h2ycg.cloudfront.net/mocks/opportunity-analysis.png"
 
 div ->
   @content
