@@ -14,7 +14,7 @@ docpadConfig = {
     production:
       ignoreCustomPatterns: /\.sass/
       templateData:
-        imagesRoot: 'http://d7f3jtm2h2ycg.cloudfront.net/mocks/'
+        imagesRoot: 'http://prologis.s3.amazonaws.com/mocks/'
 
     development:
       templateData:
