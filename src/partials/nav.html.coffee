@@ -23,4 +23,3 @@ ul class:"menu vertical", "data-accordion-menu":"data-accordion-menu", "data-mul
       ul class:"menu vertical nested", style:"display: block", ->
         for view, subViews of views
           makeFamily(view, subViews)
-          @deduceId()
