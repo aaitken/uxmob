@@ -1,7 +1,26 @@
+body {
+  overflow: auto !important;
+}
+
 .row {
   max-width: 100%;
 }
 
 .ama-is-active {
   background: rgba(0, 0, 0, 0.05);
+}
+
+.impress-enabled .step {
+  display: none;
+}
+.impress-enabled .step.active {
+  display: block;
+}
+.impress-enabled .ama-slide {
+  width: 1040px;
+  transform: translate(-50%, 0%) !important;
+}
+
+.ama-impress-container {
+  position: relative;
 }
