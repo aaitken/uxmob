@@ -10,13 +10,15 @@ docpadConfig = {
   #===========================================
 
   environments:
+
     production:
       ignoreCustomPatterns: /\.sass/
+      templateData:
+        imagesRoot: 'http://d7f3jtm2h2ycg.cloudfront.net/mocks/'
 
-  templateData:
-    deduceId: ->
-      console.log('testtesttesttesttest')
-
+    development:
+      templateData:
+        imagesRoot: '/assets/images/mocks/'
 
   
 }
