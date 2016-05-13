@@ -9,7 +9,8 @@ docpadConfig = {
 
   #===========================================
     
-  
+  templateData: {}
+
   environments:
 
     production:
