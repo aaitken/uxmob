@@ -3,6 +3,7 @@
 layout: 'default'
 nav: 
   'Opportunities':
+    default: 'test'
     'Index':
       default: 'opportunities'
       'New':

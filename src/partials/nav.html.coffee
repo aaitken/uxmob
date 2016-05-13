@@ -1,12 +1,11 @@
 parseOut = (obj)->
   for key, val of obj
     if key isnt 'default'
-      li "#{key} #{(->
-        if obj[key]?.default then obj[key].default
-        else '')()}"
-    if val.constructor is Object
-      ul ->
-        parseOut(val)
+      li ->
+        a href:"#/#{val.default || val}", key 
+        if val.default
+          ul class:"menu nested vertical", ->
+            parseOut(val)
 
 #===
     
