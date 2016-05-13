@@ -1,10 +1,10 @@
-isObject = (item)->
-  if item.constructor is Object then return true
-
 parseOut = (obj)->
   for key, val of obj
-    li key
-    if isObject(val)
+    if key isnt 'default'
+      li "#{key} #{(->
+        if obj[key]?.default then obj[key].default
+        else '')()}"
+    if val.constructor is Object
       ul ->
         parseOut(val)
 
