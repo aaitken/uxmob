@@ -9,5 +9,5 @@ makeNav = (obj)->
 
 #===
 
-ul class:"menu vertical", "data-accordion-menu":"true", "data-multi-open":"false", "data-slide-speed":"0", ->
+ul id:"ama-menu", class:"menu vertical", "data-accordion-menu":"true", "data-multi-open":"false", "data-slide-speed":"0", ->
   makeNav(@document.nav)
