@@ -4,10 +4,21 @@ body {
 
 .row {
   max-width: 100%;
+  height: 100%;
 }
 
 .ama-is-active {
   background: rgba(0, 0, 0, 0.05);
+}
+
+.ama-menu-container {
+  position: fixed;
+  height: 100%;
+  background: #fafafa;
+}
+
+.ama-impress-container {
+  position: relative;
 }
 
 .impress-enabled .step {
@@ -19,8 +30,4 @@ body {
 .impress-enabled .ama-slide {
   width: 1040px;
   transform: translate(-50%, 0%) !important;
-}
-
-.ama-impress-container {
-  position: relative;
 }

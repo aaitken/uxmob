@@ -24,7 +24,7 @@ html ->
       link rel:"stylesheet", href:url, media:"all"
   body ->
     div class:"row", ->
-      div class:"large-3 columns", style:"position: fixed", ->
+      div class:"ama-menu-container large-3 columns", ->
         @partial('nav.html.coffee')
       div class:"large-9 columns ama-impress-container", ->
         div id:"impress", ->
