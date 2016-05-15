@@ -198,14 +198,14 @@
     
     // some default config values.
     var defaults = {
-        width: 1040,
+        width: 1024,
         height: 768,
         maxScale: 1,
-        minScale: 1,
+        minScale: 0,
         
         perspective: 1000,
         
-        transitionDuration: 0
+        transitionDuration: 1000
     };
     
     // it's just an empty function ... and a useless comment.
@@ -377,7 +377,7 @@
             
             css(root, rootStyles);
             css(root, {
-                top: "0",
+                top: "50%",
                 left: "50%",
                 transform: perspective( config.perspective/windowScale ) + scale( windowScale )
             });
