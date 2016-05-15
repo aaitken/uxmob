@@ -9,13 +9,16 @@ $menu.on 'click', 'a', ->
 
 
 #deep link functionality
-$(document).ready ->
+#$(document).ready ->
+
+document.addEventListener 'impress:stepenter', ->
 
   id = document.location.href.split('#/')[1]
   $target = $("[href='#/#{id}']")
   window.$targetChildren = $target.next()
   window.$menu = $('#ama-menu')
   window.ancestors = []
+  $menu.find('a').removeClass('ama-is-active')
   makeAncestors = ->
     $ancestor = $target.parent().parent()
     console.log $ancestor.attr('id')
