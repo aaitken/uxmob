@@ -4,12 +4,12 @@ body
 
 hr
   margin-top: 5em
+  border-width: solid 3px
 
 
 .row
   max-width: 100%
   height: 100%
-
 
 
 .ama-is-active
@@ -20,11 +20,16 @@ hr
   position: fixed
   height: 100%
   background: #fafafa
-
+ 
 
 .ama-impress-container
   position: relative
-  min-width: 1040px
+  min-width: 1060px
+  min-height: 100%
+
+  div
+    min-height: 100%
+
 
 .impress-enabled
   .step
@@ -35,5 +40,9 @@ hr
 
   .ama-slide
     width: 1040px
+    border-right: 10px solid white
+    border-left: 10px solid white
+    min-height: 100%
+    background: #fff
     transform: translate(-50%, 0%) !important
 

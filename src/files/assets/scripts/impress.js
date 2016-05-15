@@ -205,7 +205,7 @@
         
         perspective: 1000,
         
-        transitionDuration: 1000
+        transitionDuration: 0
     };
     
     // it's just an empty function ... and a useless comment.
@@ -377,7 +377,7 @@
             
             css(root, rootStyles);
             css(root, {
-                top: "50%",
+                top: "0",
                 left: "50%",
                 transform: perspective( config.perspective/windowScale ) + scale( windowScale )
             });
