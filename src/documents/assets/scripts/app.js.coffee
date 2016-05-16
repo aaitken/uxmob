@@ -8,6 +8,12 @@ $menu.on 'click', 'a', ->
   $(this).addClass('ama-is-active')
 
 
+$('[data-id="ama-delegator"]').on 'click', ->
+  $delegate = $(this).next().find('a:eq(0)')
+  $delegate.trigger('click')
+  window.location.href = $delegate.attr('href')
+
+
 #deep link functionality
 #$(document).ready ->
 

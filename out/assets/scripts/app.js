@@ -12,6 +12,13 @@
     return $(this).addClass('ama-is-active');
   });
 
+  $('[data-id="ama-delegator"]').on('click', function() {
+    var $delegate;
+    $delegate = $(this).next().find('a:eq(0)');
+    $delegate.trigger('click');
+    return window.location.href = $delegate.attr('href');
+  });
+
   document.addEventListener('impress:stepenter', function() {
     var $target, ancestor, i, id, len, makeAncestors, ref, scroll;
     id = document.location.href.split('#/')[1].split('?')[0];

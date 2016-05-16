@@ -2,10 +2,16 @@ makeNav = (obj)->
   for key, val of obj
     if key isnt 'default'
       li ->
-        a href:"#/#{val.default || val}", key 
-        if val.default
+        if !val.views
+          a href:"#/#{val.default || val}", key 
+          if val.default
+            ul class:"menu nested vertical", ->
+              makeNav(val)
+        else
+          a "data-id":"ama-delegator", key
           ul class:"menu nested vertical", ->
-            makeNav(val)
+              makeNav(val.views)
+          
 
 #===
 
