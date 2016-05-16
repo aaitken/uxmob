@@ -2,8 +2,7 @@
 
 layout: 'default'
 nav: 
-  'Opportunities':
-    default: 'test'
+  'opportunities':
     'Index':
       default: 'opportunities'
       'New':
@@ -11,7 +10,7 @@ nav:
         'Help': 'opportunities-new-(help-type)'
         'Error': 'opportunities-new-(error)'
         'New': 'opportunities-new-new'
-    'Record - Overview':
+    'Record (Overview)':
       default: 'opportunity-overview'
       'Info (Customer)': 'opportunity-overview-(info-customer)'
       'Info (Building)': 'opportunity-overview-(info-building)'
@@ -19,9 +18,9 @@ nav:
         default: 'opportunity-overview-(help-units)'
         'Test': 
           default: 'opportunity-overview-(help-units-2)'
-    'Record - Analysis':
-      default: 'opportunity-analysis'
-  'Brokers':
-    default: 'placeholder'
+    'Record - Analysis': 'opportunity-analysis'
+  'brokers':
+    'Index':
+      default: 'placeholder'
 
 ---
