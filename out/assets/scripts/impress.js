@@ -143,7 +143,7 @@
     var getElementFromHash = function () {
         // get id from url # by removing `#` or `#/` from the beginning,
         // so both "fallback" `#slide-id` and "enhanced" `#/slide-id` will work
-        return byId( window.location.hash.replace(/^#\/?/,"") );
+        return byId( window.location.hash.replace(/^#\/?/,"").split('?')[0] );
     };
     
     // `computeWindowScale` counts the scale factor between window size and size
@@ -608,8 +608,11 @@
             // And it has to be set after animation finishes, because in Chrome it
             // makes transtion laggy.
             // BUG: http://code.google.com/p/chromium/issues/detail?id=62820
-            root.addEventListener("impress:stepenter", function (event) {
-                window.location.hash = lastHash = "#/" + event.target.id;
+            root.addEventListener("impress:stepenter", function (event) { //ama - modified for query paraming
+                var scroll
+                if(window.location.href.split('?')[1]){scroll = '?' + window.location.href.split('?')[1]}
+                else {scroll=''}
+                window.location.hash = lastHash = "#/" + event.target.id + scroll;
             }, false);
             
             window.addEventListener("hashchange", function () {

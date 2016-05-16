@@ -13,13 +13,13 @@
   });
 
   document.addEventListener('impress:stepenter', function() {
-    var $target, ancestor, i, id, len, makeAncestors, ref;
-    id = document.location.href.split('#/')[1];
+    var $target, ancestor, i, id, len, makeAncestors, ref, scroll;
+    id = document.location.href.split('#/')[1].split('?')[0];
+    scroll = document.location.href.split('?')[1];
     $target = $("[href='#/" + id + "']");
     window.$targetChildren = $target.next();
     window.$menu = $('#ama-menu');
     window.ancestors = [];
-    $menu.find('a').removeClass('ama-is-active');
     makeAncestors = function() {
       var $ancestor;
       $ancestor = $target.parent().parent();
@@ -30,6 +30,7 @@
         return makeAncestors();
       }
     };
+    $menu.find('a').removeClass('ama-is-active');
     $target.addClass('ama-is-active');
     makeAncestors();
     ancestors.reverse();
@@ -39,7 +40,10 @@
       $menu.foundation('down', ancestor);
     }
     if ($targetChildren.length) {
-      return $menu.foundation('down', $targetChildren);
+      $menu.foundation('down', $targetChildren);
+    }
+    if (scroll) {
+      return $(window).scrollTop(scroll);
     }
   });
 
