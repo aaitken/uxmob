@@ -6,7 +6,8 @@ makeSlides = (obj)->
         if @getFileAtPath("notes/#{val}.html.md")
           hr()
           h3 "Notes"
-          @include("notes/#{val}.html.md")
+          text @include("notes/#{val}.html.md")
+          p "&nbsp;"
     else
       makeSlides(val)
 
