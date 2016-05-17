@@ -32,9 +32,12 @@ document.addEventListener 'impress:stepenter', ->
   $target.addClass('ama-is-active')
   makeAncestors()
   ancestors.reverse()
-  for ancestor in ancestors[1..]
+  for ancestor in ancestors
     $menu.foundation('down', ancestor)
   if $targetChildren.length
     $menu.foundation('down', $targetChildren)
+  else
+    if ancestors.length is 1
+      $menu.foundation('hideAll')
   if scroll
     $(window).scrollTop(scroll)

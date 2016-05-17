@@ -13,7 +13,7 @@
   });
 
   document.addEventListener('impress:stepenter', function() {
-    var $target, ancestor, href, i, id, len, makeAncestors, ref, scroll;
+    var $target, ancestor, href, i, id, len, makeAncestors, scroll;
     href = document.location.href.split('#/')[1];
     id = href.split('?')[0];
     scroll = document.location.href.split('?')[1];
@@ -35,13 +35,16 @@
     $target.addClass('ama-is-active');
     makeAncestors();
     ancestors.reverse();
-    ref = ancestors.slice(1);
-    for (i = 0, len = ref.length; i < len; i++) {
-      ancestor = ref[i];
+    for (i = 0, len = ancestors.length; i < len; i++) {
+      ancestor = ancestors[i];
       $menu.foundation('down', ancestor);
     }
     if ($targetChildren.length) {
       $menu.foundation('down', $targetChildren);
+    } else {
+      if (ancestors.length === 1) {
+        $menu.foundation('hideAll');
+      }
     }
     if (scroll) {
       return $(window).scrollTop(scroll);
