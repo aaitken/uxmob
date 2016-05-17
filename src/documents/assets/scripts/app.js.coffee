@@ -13,9 +13,10 @@ $menu.on 'click', 'a', ->
 
 document.addEventListener 'impress:stepenter', ->
 
-  id = document.location.href.split('#/')[1].split('?')[0]
+  href = document.location.href.split('#/')[1]
+  id = href.split('?')[0]
   scroll = document.location.href.split('?')[1]
-  $target = $("[href='#/#{id}']")
+  $target = $("[href='#/#{href}']")
   window.$targetChildren = $target.next()
   window.$menu = $('#ama-menu')
   window.ancestors = []

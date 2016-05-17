@@ -10,4 +10,8 @@ makeNav = (obj)->
 #===
 
 ul id:"ama-menu", class:"menu vertical", "data-accordion-menu":"true", "data-multi-open":"false", "data-slide-speed":"0", ->
-  makeNav(@document.nav)
+  li "Opportunities"
+  makeNav(@document.nav.opportunities)
+  li "Brokers"
+  makeNav(@document.nav.brokers)
+
