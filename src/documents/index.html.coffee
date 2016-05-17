@@ -13,10 +13,10 @@ nav:
         'New': 'opportunities-new-new'
     'Record - Overview':
       default: 'opportunity-overview'
-      'Info (Customer)': 'opportunity-overview-(info-customer)'
-      'Info (Building)': 'opportunity-overview-(info-building)'
+      'Info (Customer)': 'opportunity-overview-(info-customer)?420'
+      'Info (Building)': 'opportunity-overview-(info-building)?1915'
       'Help':  
-        default: 'opportunity-overview-(help-units)'
+        default: 'opportunity-overview-(help-units)?1628'
         'Test': 
           default: 'opportunity-overview-(help-units-2)'
     'Record - Analysis':
