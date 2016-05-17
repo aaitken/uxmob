@@ -17,6 +17,6 @@ nav:
       'Help (Units)': 'opportunity-overview-(help-units)?1628'
     'Record - Analysis': 'opportunity-analysis'
   brokers:
-    'Index': 'placeholder'
+    'Record - Details': 'broker-details'
 
 ---
