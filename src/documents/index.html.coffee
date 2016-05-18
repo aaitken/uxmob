@@ -8,7 +8,7 @@ nav:
       'New':
         default : 'opportunities-new'
         'Help': 'opportunities-new-(help-type)'
-        'Error': 'opportunities-new-(error)'
+        'Error': 'opportunities-new-(error-2)'
         'New': 'opportunities-new-new'
     'Record - Overview':
       default: 'opportunity-overview'
