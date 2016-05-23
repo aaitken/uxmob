@@ -8,8 +8,8 @@ nav:
         default: 'opportunities'
         'New':
           default : 'opportunities-new'
-          ': Quick Help [Type]': 'opportunities-new-(help-type)'
-          ': Error State': 'opportunities-new-(error-2)'
+          'Quick Help': 'opportunities-new-(help-type)'
+          'Error State': 'opportunities-new-(error-2)'
           'New Account': 'opportunities-new-new'
     record:
       'Overview':
