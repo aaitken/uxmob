@@ -277,10 +277,10 @@
         // but the event is triggered only if the step is different than
         // last entered step.
         var onStepEnter = function (step) {
-            if (lastEntered !== step) {
+            //if (lastEntered !== step) { ama
                 triggerEvent(step, "impress:stepenter");
                 lastEntered = step;
-            }
+            //}
         };
         
         // `onStepLeave` is called whenever the step element is left
