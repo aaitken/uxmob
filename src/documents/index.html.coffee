@@ -15,9 +15,9 @@ nav:
       'Overview':
         default: 'opportunity-overview'
         ': Quick View [Customer]':
-          default: 'opportunity-overview-(info-customer)?420'
-          '[Building]': 'opportunity-overview-(info-building)?1915'
-        ': Quick Help [Units]': 'opportunity-overview-(help-units)?1628'
+          default: 'opportunity-overview-(info-customer)?440'
+          '[Building]': 'opportunity-overview-(info-building)?1665'
+        ': Quick Help [Units]': 'opportunity-overview-(help-units)?1365'
       'Analysis': 'opportunity-analysis'
   brokers:
     record:
