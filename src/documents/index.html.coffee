@@ -25,6 +25,13 @@ nav:
           default: 'opportunity-overview?441'
           'Filters': 'opportunity-overview-(notes-attachments-filter-options)?441'
           'Show More': 'opportunity-overview-(notes-attachments-show-more)?1559'
+        'Next Steps':
+          default: 'opportunity-overview?980'
+          'Add Next': 'opportunity-overview-(next-steps-add-next)?980'
+          'History': 'opportunity-overview-(next-steps-history)?980'
+        'Units':
+          default: 'opportunity-overview?1390'
+          'Add Unit(s)': 'opportunity-overview-(units-add-unit)?1390'
       'Analysis': 'opportunity-analysis'
   brokers:
     record:
