@@ -16,7 +16,7 @@
     var $target, ancestor, href, i, id, len, makeAncestors, scroll;
     href = document.location.href.split('#/')[1];
     id = href.split('?')[0];
-    scroll = document.location.href.split('?')[1];
+    scroll = document.location.href.split('?')[1].split('-')[0];
     $target = $("[href='#/" + href + "']");
     window.$targetChildren = $target.next();
     window.$menu = $('#ama-menu');

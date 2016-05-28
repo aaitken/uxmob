@@ -12,15 +12,27 @@ nav:
           'Error State': 'opportunities-new-(error-2)'
           'New Account': 'opportunities-new-new'
     record:
-      'Overview':
+      'Front Matter':
         default: 'opportunity-overview'
+        'Header': 'opportunity-overview?0'
+        'Chevron':
+          default: 'opportunity-overview?257'
+          'In-Process': 'opportunity-overview-(chevron-pipelined)?257'
+        'Tabs': 'opportunity-overview?371-a'
+      'Overview':
+        default: 'opportunity-overview?371-b'
+        'General':
+          default: 'opportunity-overview?441'
+          'Owner Quick View': 'opportunity-overview-(general-quick-view)?441'
+          'Edit': 'opportunity-overview-(general-edit)?441'
+        'Notes & Attachments':
+          default: 'opportunity-overview?441-b'
+          'Filters': 'opportunity-overview-(notes-attachments-filter-options)?441'
+          'Show More': 'opportunity-overview-(notes-attachments-show-more)?1438'
         'Customer':
           default: 'opportunity-overview?933'
           'Customer Account Quick View': 'opportunity-overview-(customer-quick-view)?933'
-        'Notes & Attachments':
-          default: 'opportunity-overview?441'
-          'Filters': 'opportunity-overview-(notes-attachments-filter-options)?441'
-          'Show More': 'opportunity-overview-(notes-attachments-show-more)?1438'
+          'Edit': 'opportunity-overview-(customer-edit)?933'
         'Next Steps':
           default: 'opportunity-overview?1195'
           'Add Next': 'opportunity-overview-(next-steps-add-next)?1195'
