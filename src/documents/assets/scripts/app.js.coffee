@@ -22,7 +22,6 @@ document.addEventListener 'impress:stepenter', ->
   window.ancestors = []
   makeAncestors = ->
     $ancestor = $target.parent().parent()
-    console.log $ancestor.attr('id')
     if $ancestor.is('ul')
       ancestors.push($ancestor)
       $target = $ancestor
@@ -37,7 +36,7 @@ document.addEventListener 'impress:stepenter', ->
   if $targetChildren.length
     $menu.foundation('down', $targetChildren)
   else
-    if ancestors.length is 1
+    if ancestors.length <= 1
       $menu.foundation('hideAll')
   if scroll
     $(window).scrollTop(scroll)

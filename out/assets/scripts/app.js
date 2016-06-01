@@ -24,7 +24,6 @@
     makeAncestors = function() {
       var $ancestor;
       $ancestor = $target.parent().parent();
-      console.log($ancestor.attr('id'));
       if ($ancestor.is('ul')) {
         ancestors.push($ancestor);
         $target = $ancestor;
@@ -42,7 +41,7 @@
     if ($targetChildren.length) {
       $menu.foundation('down', $targetChildren);
     } else {
-      if (ancestors.length === 1) {
+      if (ancestors.length <= 1) {
         $menu.foundation('hideAll');
       }
     }

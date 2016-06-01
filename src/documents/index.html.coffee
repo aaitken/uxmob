@@ -5,16 +5,16 @@ nav:
   opportunities:
     index:
       'Index':
-        default: 'opportunities'
+        default: 'opportunities?0'
         'New':
-          default : 'opportunities-new'
-          'Quick Help': 'opportunities-new-(help-type)'
-          'Error State': 'opportunities-new-(error-2)'
-          'New Account': 'opportunities-new-new'
+          default : 'opportunities-new?0'
+          'Quick Help': 'opportunities-new-(help-type)?0'
+          'Error State': 'opportunities-new-(error-2)?0'
+          'New Account': 'opportunities-new-new?0'
     record:
       'Front Matter':
-        default: 'opportunity-overview'
-        'Header': 'opportunity-overview?0'
+        default: 'opportunity-overview?0'
+        'Header': 'opportunity-overview?00'
         'Chevron':
           default: 'opportunity-overview?257'
           'In-Process': 'opportunity-overview-(chevron-pipelined)?257'
@@ -46,7 +46,7 @@ nav:
           'Add Unit(s)': 'opportunity-overview-(units-add-unit)?1618'
           'Section Help': 'opportunity-overview-(units-help)?1618'
           'Building Quick View': 'opportunity-overview-(units-quick-view)?1618'
-      'Analysis': 'opportunity-analysis'
+      'Analysis': 'opportunity-analysis?0'
     contactsCustomer:
       'Index': 'opportunity-contacts-(customer)'
     contactsBroker:
