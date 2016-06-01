@@ -3,7 +3,7 @@ docpadConfig = {
 
   regenerateEvery: 3600000
 
-  env: 'development'
+  env: 'production'
   outPath: 'out'
 
   #===========================================
