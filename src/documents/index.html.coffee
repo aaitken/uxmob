@@ -27,7 +27,10 @@ nav:
           'Edit': 'opportunity-overview-(general-edit)?441'
         'Notes & Attachments':
           default: 'opportunity-overview?441-b'
-          'Filters': 'opportunity-overview-(notes-attachments-filter-options)?441'
+          'Filters':
+            default: 'opportunity-overview-(notes-attachments-filter-options)?441'
+            Notes: 'opportunity-overview-(notes-attachments-filter-notes)?441'
+            Attachments: 'opportunity-overview-(notes-attachments-filter-attachments)?441'
           'Show More': 'opportunity-overview-(notes-attachments-show-more)?1438'
         'Customer':
           default: 'opportunity-overview?933'
