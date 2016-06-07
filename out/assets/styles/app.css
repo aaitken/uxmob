@@ -1,0 +1,65 @@
+body {
+  overflow: auto !important;
+}
+
+hr {
+  margin-top: 5em;
+  border-width: solid 3px;
+}
+
+.row {
+  max-width: 100%;
+  height: 100%;
+}
+
+.ama-is-active {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.ama-nav-title {
+  font-size: 0.75rem;
+  color: #999;
+  font-weight: bold;
+  line-height: 1;
+  padding-left: 0.9rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  padding-top: 0;
+}
+.ama-nav-title.ama-nav-group {
+  text-transform: uppercase;
+  border-top: 1px solid #e9e9e9;
+  margin-top: 1rem;
+  padding-top: 1.5rem;
+}
+
+.ama-menu-container {
+  position: fixed;
+  height: 100%;
+  background: #fafafa;
+  overflow: auto;
+}
+
+.ama-impress-container {
+  position: relative;
+  min-width: 1060px;
+  min-height: 100%;
+}
+.ama-impress-container div {
+  min-height: 100%;
+}
+
+.impress-enabled .step {
+  display: none;
+}
+.impress-enabled .step.active {
+  display: block;
+}
+.impress-enabled .ama-slide {
+  width: 1040px;
+  border-right: 10px solid white;
+  border-left: 10px solid white;
+  min-height: 100%;
+  background: #fff;
+  transform: translate(-50%, 0%) !important;
+}
