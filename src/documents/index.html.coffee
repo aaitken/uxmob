@@ -27,7 +27,13 @@ nav:
           'Edit': 'opportunity-overview-(general-edit)?441'
         'Notes & Attachments':
           default: 'opportunity-overview?441-b'
-          'Filters': 'opportunity-overview-(notes-attachments-filter-options)?441'
+          'Filters':
+            default: 'opportunity-overview-(notes-attachments-filter-options)?441'
+            Notes: 'opportunity-overview-(notes-attachments-filter-notes)?441'
+            Attachments: 'opportunity-overview-(notes-attachments-filter-attachments)?441'
+          'Add Attachment (via Clip)':
+            default: 'opportunity-overview-(notes-attachments-upload-choose)?441'
+            'Confirm/Save': 'opportunity-overview-(notes-attachments-upload-confirm)?441'
           'Show More': 'opportunity-overview-(notes-attachments-show-more)?1438'
         'Customer':
           default: 'opportunity-overview?933'
@@ -43,7 +49,10 @@ nav:
             'From Step':  'opportunity-overview-(next-steps-edit-from-step)?1195'
         'Units':
           default: 'opportunity-overview?1618'
-          'Add Unit(s)': 'opportunity-overview-(units-add-unit)?1618'
+          'Edit': 'opportunity-overview-(units-edit)?1618'
+          'Add Unit(s)': 
+            default: 'opportunity-overview-(units-add-unit)?1618'
+            'Results': 'opportunity-overview-(units-add-results)?1618'
           'Section Help': 'opportunity-overview-(units-help)?1618'
           'Building Quick View': 'opportunity-overview-(units-quick-view)?1618'
       'Analysis': 'opportunity-analysis?0'
@@ -58,3 +67,4 @@ nav:
       'Details': 'broker-details'
 
 ---
+
