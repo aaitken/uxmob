@@ -14,12 +14,8 @@ ul id:"ama-menu", class:"menu vertical", "data-accordion-menu":"true", "data-mul
   makeNav(@document.nav.opportunities.index)
   li class:"ama-nav-title", "Record"
   makeNav(@document.nav.opportunities.record)
-  li class:"ama-nav-title", ": Customer Contacts"
-  makeNav(@document.nav.opportunities.contactsCustomer)
-  li class:"ama-nav-title", ": Procuring Brokers"
-  makeNav(@document.nav.opportunities.contactsBroker)
-  li class:"ama-nav-title", ": Opportunity Team"
-  makeNav(@document.nav.opportunities.contactsTeam)
+  li class:"ama-nav-title", "Contextual Indexes"
+  makeNav(@document.nav.opportunities.contextualIndexes)
   li class:"ama-nav-title ama-nav-group", "Brokers"
   li class:"ama-nav-title", "Record"
   makeNav(@document.nav.brokers.record)
