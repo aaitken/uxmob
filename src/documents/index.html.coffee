@@ -55,13 +55,16 @@ nav:
             'Results': 'opportunity-overview-(units-add-results)?1618'
           'Section Help': 'opportunity-overview-(units-help)?1618'
           'Building Quick View': 'opportunity-overview-(units-quick-view)?1618'
+        'People':
+          default: 'opportunity-overview?2176'
+          'Add':
+            default: 'opportunity-overview-(people-add)?2176'
+            'Add Team Member': 'opportunity-overview-(people-add-team-member)?2176'
       'Analysis': 'opportunity-analysis?0'
-    contactsCustomer:
-      'Index': 'opportunity-contacts-(customer)'
-    contactsBroker:
-      'Index': 'opportunity-contacts-(broker)'
-    contactsTeam:
-      'Index': 'opportunity-contacts-(team)'
+    contextualIndexes:
+      'Contacts': 'contextual-index'
+      'Brokers': 'contextual-index'
+      'Team': 'contextual-index'
   brokers:
     record:
       'Details': 'broker-details'
