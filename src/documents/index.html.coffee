@@ -57,9 +57,19 @@ nav:
           'Building Quick View': 'opportunity-overview-(units-quick-view)?1618'
         'People':
           default: 'opportunity-overview?2176'
-          'Add':
+          'Add Customer Contact':
+            default: 'opportunity-overview-(people-add-customer-contact)?2176'
+            'Create Contact': 
+              default: 'opportunity-overview-(people-create-customer-contact)?2176'
+              'Create Account': 'opportunity-overview-(people-create-customer-account)?2176'
+          'Add Procuring Broker':
+            default: 'opportunity-overview-(people-add-broker)?2176'
+            'Create Broker':
+              default: 'opportunity-overview-(people-create-broker)?2176'
+              'Create Brokerage Firm': 'opportunity-overview-(people-create-brokerage-firm)?2176'
+          'Add to Opportunity Team':
             default: 'opportunity-overview-(people-add)?2176'
-            'Add Team Member': 'opportunity-overview-(people-add-team-member)?2176'
+            'New Team Member': 'opportunity-overview-(people-add-team-member)?2176'
       'Analysis': 'opportunity-analysis?0'
     contextualIndexes:
       'Contacts': 'contextual-index'
