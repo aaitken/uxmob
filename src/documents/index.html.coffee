@@ -67,6 +67,7 @@ nav:
           'Add to Opportunity Team':
             default: 'opportunity-overview-(people-add)?2176'
             'New Team Member': 'opportunity-overview-(people-add-team-member)?2176'
+      'Overview - Minimal': 'overview-minimal'
       'Analysis': 'opportunity-analysis?0'
     contextualIndexes:
       'Contacts': 'contextual-index'
