@@ -43,10 +43,7 @@ nav:
           default: 'opportunity-overview?1195'
           'Add Next': 'opportunity-overview-(next-steps-add-next)?1195'
           'History': 'opportunity-overview-(next-steps-history)?1195'
-          'Edit':
-            default: 'opportunity-overview-(next-steps-edit)?1195'
-            'From Date': 'opportunity-overview-(next-steps-edit-from-date)?1195'
-            'From Step':  'opportunity-overview-(next-steps-edit-from-step)?1195'
+          'Edit': 'opportunity-overview-(next-steps-edit)?1195'
         'Units':
           default: 'opportunity-overview?1618'
           'Edit': 'opportunity-overview-(units-edit)?1618'
