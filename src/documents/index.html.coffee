@@ -54,19 +54,28 @@ nav:
           'Building Quick View': 'opportunity-overview-(units-quick-view)?1618'
         'People':
           default: 'opportunity-overview?2176'
-          'Add Customer Contact':
-            default: 'opportunity-overview-(people-add-customer-contact)?2176'
-            'Create Contact': 
-              default: 'opportunity-overview-(people-create-customer-contact)?2176'
-              'Create Account': 'opportunity-overview-(people-create-customer-account)?2176'
-          'Add Procuring Broker':
-            default: 'opportunity-overview-(people-add-broker)?2472'
-            'Create Broker':
-              default: 'opportunity-overview-(people-create-broker)?2472'
-              'Create Brokerage Firm': 'opportunity-overview-(people-create-brokerage-firm)?2472'
-          'Add to Opportunity Team':
-            default: 'opportunity-overview-(people-add)?2652'
-            'New Team Member': 'opportunity-overview-(people-add-team-member)?2652'
+          'Customer Contact':
+            default: 'opportunity-overview?2208'
+            'Add': 
+              default: 'opportunity-overview-(people-add-customer-contact)?2208'
+              'Create':
+                default: 'opportunity-overview-(people-create-customer-contact)?2208'
+                'Create Account': 'opportunity-overview-(people-create-customer-account)?2208'
+            'Options': 'opportunity-overview-(people-options-customer)?2208'
+          'Procuring Broker':
+            default:  'opportunity-overview?2472'
+            'Add':
+              default: 'opportunity-overview-(people-add-broker)?2472'
+              'Create':
+                default: 'opportunity-overview-(people-create-broker)?2472'
+                'Create Firm': 'opportunity-overview-(people-create-brokerage-firm)?2472'
+            'Options': 'opportunity-overview-(people-options-broker)?2472'
+          'Opportunity Team':
+            default: 'opportunity-overview?2652'
+            'Add': 'opportunity-overview-(people-add-team-member)?2652'
+            'Options':
+              default: 'opportunity-overview-(people-options-team)?2652'
+              'Edit': 'opportunity-overview-(people-options-team-edit)?2652'
       'Overview - Minimal': 'overview-minimal'
       'Analysis': 'opportunity-analysis?0'
     contextualIndexes:
