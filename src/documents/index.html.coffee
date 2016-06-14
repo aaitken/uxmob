@@ -60,13 +60,13 @@ nav:
               default: 'opportunity-overview-(people-create-customer-contact)?2176'
               'Create Account': 'opportunity-overview-(people-create-customer-account)?2176'
           'Add Procuring Broker':
-            default: 'opportunity-overview-(people-add-broker)?2176'
+            default: 'opportunity-overview-(people-add-broker)?2472'
             'Create Broker':
-              default: 'opportunity-overview-(people-create-broker)?2176'
-              'Create Brokerage Firm': 'opportunity-overview-(people-create-brokerage-firm)?2176'
+              default: 'opportunity-overview-(people-create-broker)?2472'
+              'Create Brokerage Firm': 'opportunity-overview-(people-create-brokerage-firm)?2472'
           'Add to Opportunity Team':
-            default: 'opportunity-overview-(people-add)?2176'
-            'New Team Member': 'opportunity-overview-(people-add-team-member)?2176'
+            default: 'opportunity-overview-(people-add)?2652'
+            'New Team Member': 'opportunity-overview-(people-add-team-member)?2652'
       'Overview - Minimal': 'overview-minimal'
       'Analysis': 'opportunity-analysis?0'
     contextualIndexes:
